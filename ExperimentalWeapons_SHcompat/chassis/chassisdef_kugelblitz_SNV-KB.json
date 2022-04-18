@@ -5,7 +5,7 @@
       "RightLimit": "Lower"
     },
     "DropCostFactor": {
-      "DropModifier": 1.38
+      "DropModifier": 1.5
     },
     "AssemblyVariant": {
       "PrefabID": "supernova",
@@ -26,15 +26,15 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Superheavy_Frame_Large",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 4907500,
+    "Cost": 5001250,
     "Rarity": 10,
     "Purchasable": true,
     "Manufacturer": "",
@@ -42,7 +42,7 @@
     "UIName": "Supernova",
     "Id": "chassisdef_kugelblitz_SNV-KB",
     "Name": "Supernova",
-    "Details": "The Kugelblitz, also known as the Hypernova, Superluminous Supernova, or 'Type 1A Supernova' is a gigantic Supernova chassis. Nothing really out of the ordinary until one checks the armor plating on it, mounting WarShip class 'Ferro-Carbide Lamellor', this expensive armor is capable of protecting a 'Mech's internals without issue, but the price to maintain the armor is something even the richest of Clan Diamond Shark might have an issue with.\n\n<b><color=#e62e00>Quirk: Improved Targeting - Long</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.38</color></b>",
+    "Details": "The Kugelblitz, also known as the Hypernova, Superluminous Supernova, or 'Type 1A Supernova' is a gigantic Supernova chassis. Nothing really out of the ordinary until one checks the armor plating on it, mounting WarShip class 'Ferro-Carbide Lamellor', this expensive armor is capable of protecting a 'Mech's internals without issue, but the price to maintain the armor is something even the richest of Clan Diamond Shark might have an issue with.\n\n<b><color=#e62e00>Quirk: Improved Targeting - Long</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.5</color></b>",
     "Icon": "Kugelblitz"
   },
   "VariantName": "SNV-KB",
@@ -94,12 +94,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 90,
@@ -109,10 +104,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Energy",
           "Omni": false
@@ -144,10 +135,6 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
@@ -161,10 +148,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -213,10 +196,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Energy",
           "Omni": false

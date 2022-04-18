@@ -39,7 +39,8 @@
       "ai_priority_low",
       "ai_reserve_high",
       "ai_shooting_low",
-      "ai_surrounded_normal"
+      "ai_surrounded_normal",
+      "unit_superheavy"
     ],
     "tagSetSourceFile": ""
   },
@@ -53,7 +54,7 @@
     "UIName": "Master Summoner",
     "Id": "mechdef_master_summoner",
     "Name": "Summoner SMN-MSTR",
-    "Details": "In its primary configuration the Summoner has a basic yet effective arsenal. The primary direct fire weapon is an ER PPC backed up by an LB 10-X Autocannon that can fire both standard and cluster ammunition. For fire support and bombardment, the Summoner has an LRM-15 launcher.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.43</color></b>",
+    "Details": "In its primary configuration the Summoner has a basic yet effective arsenal. The primary direct fire weapon is an ER PPC backed up by an LB 10-X Autocannon that can fire both standard and cluster ammunition. For fire support and bombardment, the Summoner has an LRM-15 launcher.\n\n<b><color=#e62e00>Quirk: Command Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.55</color></b>",
     "Icon": "summonerMASTER"
   },
   "simGameMechPartCost": 5152415,
@@ -133,6 +134,13 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_AdvancedMaterials2",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_AdvancedMaterials2",
       "ComponentDefType": "Upgrade",
@@ -142,6 +150,13 @@
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_armorslots_clanferrosfibrous",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_AdvancedMaterials2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -161,15 +176,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_AdvancedMaterials2",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_AdvancedMaterials2",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_superheavy",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -177,6 +185,13 @@
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_CommandConsole",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Gyro_Superheavy_XL",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -409,20 +424,6 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_Coolantpod_Clan_X3",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Gyro_Superheavy_XL",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "emod_structureslots_superheavy",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

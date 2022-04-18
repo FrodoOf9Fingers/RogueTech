@@ -5,7 +5,7 @@
       "RightLimit": "Lower"
     },
     "DropCostFactor": {
-      "DropModifier": 1.42
+      "DropModifier": 1.54
     },
     "AssemblyVariant": {
       "PrefabID": "orca",
@@ -27,9 +27,9 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Superheavy_Frame_Colossal",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
@@ -43,7 +43,7 @@
     "UIName": "Orca",
     "Id": "chassisdef_orca_OC-1X",
     "Name": "Orca",
-    "Details": "The Orca was constructed as a secret project. Its development occurred under such total secrecy, that even 'an unfortunate delivery driver who slipped through security due to a lapse and was caught filming a livefire test with his personal device' was only released from custody 5 years later.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
+    "Details": "The Orca was constructed as a secret project. Its development occurred under such total secrecy, that even 'an unfortunate delivery driver who slipped through security due to a lapse and was caught filming a livefire test with his personal device' was only released from custody 5 years later.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.54</color></b>",
     "Icon": "orca"
   },
   "VariantName": "OC-1X",
@@ -112,10 +112,6 @@
         {
           "WeaponMountID": "Ballistic",
           "Omni": false
-        },
-        {
-          "WeaponMountID": "Energy",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -128,11 +124,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Missile",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "Missile",
           "Omni": false
         }
       ],
@@ -146,11 +142,11 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Missile",
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
@@ -195,6 +191,10 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
           "Omni": false
         }
       ],

@@ -1,7 +1,11 @@
 {
   "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+      "RightLimit": "Lower"
+    },
     "DropCostFactor": {
-      "DropModifier": 1.24
+      "DropModifier": 1.18
     },
     "AssemblyVariant": {
       "PrefabID": "Matar",
@@ -20,17 +24,10 @@
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Superheavy_Frame_Small",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2885577,
+    "Cost": 3256344,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -38,7 +35,7 @@
     "UIName": "Matar",
     "Id": "chassisdef_matar_SAM-RS2",
     "Name": "Matar",
-    "Details": "In 2775 as Aleksander Kerensky's forces were tightening the noose around the Amaris Empire, weapons development became increasingly frantic in hopes of finding a miracle weapon to turn the tides of the war. The most well known of these is the Matar, commonly referred to as Amaris' Folly, an attempt to create a BattleMech able to withstand an entire company.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.24</color></b>",
+    "Details": "In 2775 as Aleksander Kerensky's forces were tightening the noose around the Amaris Empire, weapons development became increasingly frantic in hopes of finding a miracle weapon to turn the tides of the war. The most well known of these is the Matar, commonly referred to as Amaris' Folly, an attempt to create a BattleMech able to withstand an entire company.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.18</color></b>",
     "Icon": "omega"
   },
   "VariantName": "SAM-RS2",
@@ -46,8 +43,7 @@
     "items": [
       "mr-resize-1.2",
       "PrototypeMech",
-      "LegendaryMech",
-      "Superheavy"
+      "LegendaryMech"
     ],
     "tagSetSourceFile": ""
   },
@@ -59,7 +55,7 @@
   "PrefabIdentifier": "chrprfmech_stonerhinobase-001",
   "PrefabBase": "stonerhino",
   "Tonnage": 110,
-  "InitialTonnage": 22,
+  "InitialTonnage": 11,
   "weightClass": "ASSAULT",
   "BattleValue": 10206000,
   "Heatsinks": 0,
@@ -91,10 +87,15 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 90,
+      "MaxArmor": 45,
       "MaxRearArmor": -1,
       "InternalStructure": 20
     },
@@ -106,16 +107,12 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 16,
+      "InventorySlots": 13,
       "MaxArmor": 180,
       "MaxRearArmor": -1,
       "InternalStructure": 90
@@ -126,10 +123,14 @@
         {
           "WeaponMountID": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 18,
+      "InventorySlots": 15,
       "MaxArmor": 230,
       "MaxRearArmor": 115,
       "InternalStructure": 115
@@ -138,6 +139,10 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         },
@@ -155,7 +160,7 @@
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 22,
+      "InventorySlots": 16,
       "MaxArmor": 330,
       "MaxRearArmor": 165,
       "InternalStructure": 165
@@ -166,10 +171,14 @@
         {
           "WeaponMountID": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 18,
+      "InventorySlots": 15,
       "MaxArmor": 230,
       "MaxRearArmor": 115,
       "InternalStructure": 115
@@ -187,7 +196,7 @@
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 16,
+      "InventorySlots": 13,
       "MaxArmor": 180,
       "MaxRearArmor": -1,
       "InternalStructure": 90

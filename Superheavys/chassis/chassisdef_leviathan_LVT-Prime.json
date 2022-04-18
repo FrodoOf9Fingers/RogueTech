@@ -5,7 +5,7 @@
       "RightLimit": "Lower"
     },
     "DropCostFactor": {
-      "DropModifier": 1.42
+      "DropModifier": 1.54
     },
     "AssemblyVariant": {
       "PrefabID": "leviathan",
@@ -27,15 +27,15 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Superheavy_Frame_Colossal",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 4862963,
+    "Cost": 4954245,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -43,7 +43,7 @@
     "UIName": "Leviathan",
     "Id": "chassisdef_leviathan_LVT-Prime",
     "Name": "Leviathan",
-    "Details": "The Leviathan is an attempt at creating the most powerful and supersized mech imaginable.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
+    "Details": "The Leviathan is an attempt at creating the most powerful and supersized mech imaginable.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.54</color></b>",
     "Icon": "Leviathan"
   },
   "VariantName": "LVT-Prime",
@@ -130,10 +130,6 @@
         {
           "WeaponMountID": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -176,14 +172,6 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "Energy",
           "Omni": false
         },
@@ -214,12 +202,7 @@
     },
     {
       "Location": "LeftLeg",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 420,
@@ -228,12 +211,7 @@
     },
     {
       "Location": "RightLeg",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 420,

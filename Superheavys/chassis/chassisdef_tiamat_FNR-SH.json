@@ -5,7 +5,7 @@
       "RightLimit": "Upper"
     },
     "DropCostFactor": {
-      "DropModifier": 1.42
+      "DropModifier": 1.54
     },
     "AssemblyVariant": {
       "PrefabID": "fafnir",
@@ -34,9 +34,9 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Superheavy_Frame_Colossal",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
@@ -50,7 +50,7 @@
     "UIName": "Fafnir",
     "Id": "chassisdef_tiamat_FNR-SH",
     "Name": "Fafnir",
-    "Details": "The Design that would Later become the Fafnir, was this prototype meant to carry 2 StarLeague Era Railguns, but suffered from many typical Superheavy Design issues.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
+    "Details": "The Design that would Later become the Fafnir, was this prototype meant to carry 2 StarLeague Era Railguns, but suffered from many typical Superheavy Design issues.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.54</color></b>",
     "Icon": "FafnirP"
   },
   "VariantName": "FNR-SH",
@@ -103,10 +103,6 @@
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMountID": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
@@ -140,10 +136,6 @@
       "Hardpoints": [
         {
           "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],

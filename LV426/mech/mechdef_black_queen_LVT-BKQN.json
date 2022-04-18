@@ -36,7 +36,8 @@
       "ai_priority_normal",
       "ai_reserve_low",
       "ai_shooting_normal",
-      "ai_surrounded_low"
+      "ai_surrounded_low",
+      "unit_superheavy"
     ],
     "tagSetSourceFile": ""
   },
@@ -50,7 +51,7 @@
     "UIName": "Black Queen LVT-BKQN",
     "Id": "mechdef_black_queen_LVT-BKQN",
     "Name": "XenoQueen LVT-BKQN",
-    "Details": "This 'Leviathan' was recovered from a battle on LV-426. It's completely covered in the unique compound discovered there, which has warped the entire chassis to be nearly lifelike.\n\n<b><color=#e62e00>Quirk: Intimidating</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
+    "Details": "This 'Leviathan' was recovered from a battle on LV-426. It's completely covered in the unique compound discovered there, which has warped the entire chassis to be nearly lifelike.\n\n<b><color=#e62e00>Quirk: Intimidating</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.54</color></b>",
     "Icon": "uixTxrIcon_xenorauder"
   },
   "simGameMechPartCost": 1000238,
@@ -178,8 +179,36 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_superheavy_reinforced",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gyro_XXL_Side",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gyro_XXL_Side",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_Cripple",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Gyro_Superheavy_XXL",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -277,14 +306,14 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_MRM_30",
+      "ComponentDefID": "BoltOn_SuperRocketPack",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "BoltOn_SuperRocketPack",
+      "ComponentDefID": "Weapon_MRM_30",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -325,8 +354,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC20",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Acid_MRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -346,13 +375,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Acid_MRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Improved_MRM",
       "ComponentDefType": "AmmunitionBox",
@@ -367,30 +389,9 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "emod_structureslots_superheavy_reinforced",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Gyro_Superheavy_XXL",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gyro_XXL_Side",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "LeftTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gyro_XXL_Side",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "RightTorso",
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC20",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

@@ -40,7 +40,8 @@
       "ai_priority_normal",
       "ai_reserve_normal",
       "ai_shooting_high",
-      "ai_surrounded_high"
+      "ai_surrounded_high",
+      "unit_superheavy"
     ],
     "tagSetSourceFile": ""
   },
@@ -54,7 +55,7 @@
     "UIName": "Tiamat FNR-SH",
     "Id": "mechdef_tiamat_FNR-SH",
     "Name": "Fafnir FNR-SH",
-    "Details": "The Design that would Later become the Fafnir, was this prototype meant to carry 2 StarLeague Era Railguns, but suffered from many typical Superheavy Design issues.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
+    "Details": "The Design that would Later become the Fafnir, was this prototype meant to carry 2 StarLeague Era Railguns, but suffered from many typical Superheavy Design issues.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.54</color></b>",
     "Icon": "FafnirP"
   },
   "simGameMechPartCost": 1000238,
@@ -134,8 +135,8 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_AdvancedMaterials3",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_AdvancedMaterials1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -148,15 +149,8 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_AdvancedMaterials3",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_AdvancedMaterials1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -169,8 +163,29 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_AdvancedMaterials3",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_superheavy_endocomposite",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_CommandConsole",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Gyro_Superheavy",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -361,13 +376,6 @@
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_Railgun",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "emod_structureslots_superheavy_endocomposite",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

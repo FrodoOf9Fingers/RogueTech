@@ -2,6 +2,7 @@
   "MechTags": {
     "items": [
       "unit_superheavy",
+      "omni_mech",
       "immune_shutdownonhit",
       "unit_release",
       "unit_ready",
@@ -29,13 +30,14 @@
       "ai_priority_high",
       "ai_reserve_low",
       "ai_shooting_normal",
-      "ai_surrounded_low"
+      "ai_surrounded_low",
+      "unit_superheavy"
     ],
     "tagSetSourceFile": ""
   },
   "ChassisID": "chassisdef_hyperion_HYP-Prime",
   "Description": {
-    "Cost": 911250,
+    "Cost": 3440208,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": null,
@@ -43,10 +45,10 @@
     "UIName": "Hyperion HYP-Prime",
     "Id": "mechdef_hyperion_HYP-Prime",
     "Name": "Hyperion",
-    "Details": "Super Heavy mechs were often considered nothing more than a pipe-dream. So when the Wars of Reaving began and the Society's Hyperion strode onto the battlefield, Clan leadership was rightfully troubled. Built using the latest technologies available, the Hyperion can keep pace with many Assault mechs while carrying substantially more armor and more pod-space.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.35</color></b>",
+    "Details": "Super Heavy mechs were often considered nothing more than a pipe-dream. So when the Wars of Reaving began and the Society's Hyperion strode onto the battlefield, Clan leadership was rightfully troubled. Built using the latest technologies available, the Hyperion can keep pace with many Assault mechs while carrying substantially more armor and more pod-space.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
     "Icon": "Hyperion"
   },
-  "simGameMechPartCost": 911250,
+  "simGameMechPartCost": 3440208,
   "RequiredToSpawnCompanyTags": {
     "items": [],
     "tagSetSourceFile": ""
@@ -130,6 +132,13 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_AdvancedMaterials2",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_AdvancedMaterials3",
       "ComponentDefType": "Upgrade",
@@ -137,15 +146,15 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_AdvancedMaterials3",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_clanferrolamellor",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_AdvancedMaterials2",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_AdvancedMaterials3",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -159,7 +168,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_clanferrolamellor",
+      "ComponentDefID": "emod_structureslots_superheavy",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -413,13 +422,6 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_LaserInsulator",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "emod_structureslots_superheavy",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

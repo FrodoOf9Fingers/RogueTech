@@ -23,7 +23,8 @@
       "ai_priority_low",
       "ai_reserve_normal",
       "ai_shooting_normal",
-      "ai_surrounded_low"
+      "ai_surrounded_low",
+      "unit_superheavy"
     ],
     "tagSetSourceFile": ""
   },
@@ -37,7 +38,7 @@
     "UIName": "Mothball MoTB",
     "Id": "mechdef_mothball_MoTB",
     "Name": "Mothball",
-    "Details": "This seems to be some sort of Franken-Mech; they welded 5 Land-Air Mechs together, then strapped two dropship thrusters and a booster on it. It doesn't actually fly, it sort of just... hovers.\n\n<b><color=#e62e00>Quirk: Land Air Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.32</color></b>",
+    "Details": "This seems to be some sort of Franken-Mech; they welded 5 Land-Air Mechs together, then strapped two dropship thrusters and a booster on it. It doesn't actually fly, it sort of just... hovers.\n\n<b><color=#e62e00>Quirk: Land Air Mech</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.44</color></b>",
     "Icon": "superlam"
   },
   "simGameMechPartCost": 741111,
@@ -133,35 +134,7 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_AdvancedMaterials3",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_AdvancedMaterials1",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_AdvancedMaterials1",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_AdvancedMaterials1",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_AdvancedMaterials1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -177,6 +150,34 @@
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "LAM_Aluminium_Default",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_AdvancedMaterials1",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_AdvancedMaterials3",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_AdvancedMaterials1",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_AdvancedMaterials1",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -217,9 +218,30 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gyro_XXL_Side",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gyro_XXL_Side",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "LAM_SuperBurner_SH",
       "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Gyro_Superheavy_XXL",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -528,27 +550,6 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Gyro_Superheavy_XXL",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gyro_XXL_Side",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "LeftTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gyro_XXL_Side",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "RightTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

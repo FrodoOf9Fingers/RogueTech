@@ -18,7 +18,8 @@
       "ai_priority_high",
       "ai_reserve_normal",
       "ai_shooting_normal",
-      "ai_surrounded_normal"
+      "ai_surrounded_normal",
+      "unit_superheavy"
     ],
     "tagSetSourceFile": ""
   },
@@ -32,7 +33,7 @@
     "UIName": "Omega SHP-X4",
     "Id": "mechdef_omega_SHP-X4",
     "Name": "Omega SHP-X4",
-    "Details": "Manufactured in small numbers by Skobel MechWorks from their facilities in the Russia region of Terra prior, the Omega represented the first truly viable superheavy BattleMech design to appear on the battlefield. Although the Omega was a prototype, almost thirty of the huge 'Mechs were produced by Skobel prior to the Superheavy manufacturing wing of their Russian facility being destroyed.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.32</color></b>",
+    "Details": "Manufactured in small numbers by Skobel MechWorks from their facilities in the Russia region of Terra prior, the Omega represented the first truly viable superheavy BattleMech design to appear on the battlefield. Although the Omega was a prototype, almost thirty of the huge 'Mechs were produced by Skobel prior to the Superheavy manufacturing wing of their Russian facility being destroyed.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.44</color></b>",
     "Icon": "omega"
   },
   "simGameMechPartCost": 755000,
@@ -119,8 +120,29 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_superheavy_endosteel",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_C3i",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Gyro_Superheavy",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -266,6 +288,13 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "emod_case2",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "emod_case2",
       "ComponentDefType": "Upgrade",
@@ -274,13 +303,6 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "emod_case2",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
       "ComponentDefID": "emod_case2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
@@ -336,6 +358,41 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC10",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
       "ComponentDefType": "AmmunitionBox",
@@ -346,62 +403,6 @@
       "MountedLocation": "RightArm",
       "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC10",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC10",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_double",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_C3i",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Gyro_Superheavy",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "emod_structureslots_superheavy_endosteel",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

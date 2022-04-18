@@ -25,7 +25,8 @@
       "ai_priority_normal",
       "ai_reserve_normal",
       "ai_shooting_normal",
-      "ai_surrounded_normal"
+      "ai_surrounded_normal",
+      "unit_superheavy"
     ],
     "tagSetSourceFile": ""
   },
@@ -39,7 +40,7 @@
     "UIName": "Orca OC-1X",
     "Id": "mechdef_orca_OC-1X",
     "Name": "Orca OC-1X",
-    "Details": "The Orca was constructed as a secret project. Its development occurred under such total secrecy, that even 'an unfortunate delivery driver who slipped through security due to a lapse and was caught filming a livefire test with his personal device' was only released from custody 5 years later.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
+    "Details": "The Orca was constructed as a secret project. Its development occurred under such total secrecy, that even 'an unfortunate delivery driver who slipped through security due to a lapse and was caught filming a livefire test with his personal device' was only released from custody 5 years later.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.54</color></b>",
     "Icon": "orca"
   },
   "simGameMechPartCost": 990849,
@@ -126,6 +127,13 @@
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_superheavy",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Cockpit_Generic_Standard",
       "ComponentDefType": "Upgrade",
@@ -149,6 +157,13 @@
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Guardian_ECM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Gyro_Superheavy_XL",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -301,14 +316,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
+      "MountedLocation": "LeftTorso",
       "ComponentDefID": "emod_case2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "RightTorso",
       "ComponentDefID": "emod_case2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
@@ -323,28 +338,14 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -357,8 +358,15 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -366,6 +374,13 @@
     {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Weapon_Artillery_SNIPER",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
@@ -434,13 +449,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Double",
       "ComponentDefType": "HeatSink",
@@ -455,16 +463,9 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_Gyro_Superheavy_XL",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "emod_structureslots_superheavy",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

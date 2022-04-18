@@ -37,7 +37,8 @@
       "ai_priority_high",
       "ai_reserve_high",
       "ai_shooting_high",
-      "ai_surrounded_low"
+      "ai_surrounded_low",
+      "unit_superheavy"
     ],
     "tagSetSourceFile": ""
   },
@@ -51,7 +52,7 @@
     "UIName": "Raczilla II LVT-RACZII",
     "Id": "mechdef_raczilla_ii_LVT-RACZII",
     "Name": "Leviathan LVT-RACZII",
-    "Details": "The most obscene mech to date, this... abomination carries a Rotary Gauss Rifle, theorized previously on the Project Omega TRO, as its primary armament. This immense long-range firepower is supplemented by a duo of Rotary AC/20s, placing its total destructive capacity on par with an entire company.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.42</color></b>",
+    "Details": "The most obscene mech to date, this... abomination carries a Rotary Gauss Rifle, theorized previously on the Project Omega TRO, as its primary armament. This immense long-range firepower is supplemented by a duo of Rotary AC/20s, placing its total destructive capacity on par with an entire company.\n\n<b><color=#e62e00>Quirk: Distracting</color></b>\n\n<b><color=#e62e00>Drop Cost Multiplier: 1.54</color></b>",
     "Icon": "RACzilla_II"
   },
   "simGameMechPartCost": 1000238,
@@ -133,6 +134,20 @@
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_armorslots_clanferrosfibrous",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_superheavy",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Gyro_Superheavy_XL",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -313,51 +328,37 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Prototype_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Prototype_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Prototype_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Prototype_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Gyro_Superheavy_XL",
-      "ComponentDefType": "Upgrade",
       "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "emod_structureslots_superheavy",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "CenterTorso",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "ComponentDefID": "Gear_Coolantpod_Clan_X2",
       "ComponentDefType": "HeatSink",
-      "MountedLocation": "CenterTorso",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Prototype_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Prototype_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Prototype_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Prototype_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }
