@@ -41,7 +41,7 @@
     }
   ],
   "Description": {
-    "Cost": 2713679,
+    "Cost": 2739286,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "",
@@ -197,12 +197,7 @@
     },
     {
       "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 16,
       "MaxArmor": 170,

@@ -34,7 +34,7 @@
     }
   ],
   "Description": {
-    "Cost": 2949528,
+    "Cost": 2977381,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": "Leeloo Enterprises",
@@ -140,10 +140,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Special",
           "Omni": false

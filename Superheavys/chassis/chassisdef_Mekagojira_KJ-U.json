@@ -63,7 +63,7 @@
     }
   ],
   "Description": {
-    "Cost": 5250000,
+    "Cost": 5147549,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -153,6 +153,14 @@
         {
           "WeaponMountID": "Ballistic",
           "Omni": true
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -205,6 +213,10 @@
         {
           "WeaponMountID": "Ballistic",
           "Omni": true
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,

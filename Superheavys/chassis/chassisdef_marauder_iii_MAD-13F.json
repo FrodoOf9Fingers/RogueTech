@@ -36,7 +36,7 @@
     }
   ],
   "Description": {
-    "Cost": 2858333,
+    "Cost": 2885577,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "General Motors",
@@ -143,12 +143,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMountID": "Ballistic",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 18,
       "MaxArmor": 230,
